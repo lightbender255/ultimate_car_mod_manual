@@ -1,0 +1,12 @@
+{
+    "name": "The Workshop",
+    "sortnum": "0",
+    "icon": "car:workshop",
+    "category": "patchouli:vehicles",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In order to manufacture a car we need one $(item)car workshop block$() and 8 $(item)car workshop parts$(). Note that this is a multiblock structure and will not work when it is not completed. Place the car workshop surrounded by 8 workshop parts. To use the workshop, right-click on it."
+        }
+    ]
+}

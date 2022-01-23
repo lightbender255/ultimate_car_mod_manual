@@ -1,0 +1,12 @@
+{
+    "name": "The Split Tank",
+    "sortnum": "4",
+    "icon": "car:split_tank",
+    "category": "patchouli:fuel_production",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Craft a Split Tank. Connect the backmix reactor and the split tank with fluid pipes and a fluid extractor. $()The split tank doesn't need electricity to work. Only time!"
+        }
+    ]
+}

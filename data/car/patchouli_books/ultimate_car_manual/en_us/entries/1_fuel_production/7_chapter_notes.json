@@ -1,0 +1,20 @@
+{
+    "name": "Chapter Notes",
+    "sortnum": "6",
+    "icon": "minecraft:book",
+    "category": "patchouli:fuel_production",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Do not forget to put fluid extractors at blocks you want to pump from to get the fluids flowing.$(li)One tank stores 16 buckets of fluid.$(li)16 buckets = 16000mb (millibuckets).$(li)To get fuel out of a tank with a bucket, the tank must have at least ONE bucket (1000mb) of content."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)If you can not see any fluids (in tanks), be reminded that for example, 100mb = 1/10 Minecraft buckets! This is not much and can barely be seen.$(li)Oil mills, blast furnaces and backmix reactors do have an energy storage.$(li)All machines do have an integrated fluid buffer storage.$(li)It is recommended to use fluid filters in fuel extractors to prevent fluid blocking."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)You can connect as many tanks as you wish by placing them side by side.$(li)If you break a tank with fluid, the tank will store the fluid."
+        }
+    ]
+}

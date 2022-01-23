@@ -1,0 +1,12 @@
+{
+    "name": "Fluid Handling",
+    "sortnum": "5",
+    "icon": "car:tank",
+    "category": "patchouli:fuel_production",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You can store your fluids in $(item)tanks$() after every step. Do not forget the fluid extractors and make sure you are not mixing up your fluids as it can mess up your process. To prevent mixing of different fluids, you can use filters in fluid extractors.$(br2)For filters, you have to gather one bucket of the specific fluid. To apply a filter, you can place a bucket (filled with the specific fluid you want to filter) in the slot of the fluid extractor (Right-click the fluid extractor to see the slot).$(br2) The split tank will output two different fluids. One is biodiesel, which we can collect in a tank or directly output to a fuel station. The other is glycerin, which for now, is useless but has to be collected in a tank to make the split tank process go on.$(br2)With enough fuel produced, you can craft a generator powered with biodiesel. The generator is far more efficient than the dynamo. You can supply the generator directly with biodiesel from a fluid pipe or with a canister."
+        }
+    ]
+}

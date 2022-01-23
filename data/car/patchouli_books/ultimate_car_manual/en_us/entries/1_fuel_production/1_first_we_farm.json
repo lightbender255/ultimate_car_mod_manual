@@ -1,0 +1,12 @@
+{
+    "name": "First We Farm",
+    "sortnum": "0",
+    "icon": "car:canola_seeds",
+    "category": "patchouli:fuel_production",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The first step is an easy one. $(li)Collect Canola seeds.$(li)They are obtained the same way as other seeds: Cut some grass!$(li)Cultivate and harvest canola the same way that you would wheat."
+        }
+    ]
+}

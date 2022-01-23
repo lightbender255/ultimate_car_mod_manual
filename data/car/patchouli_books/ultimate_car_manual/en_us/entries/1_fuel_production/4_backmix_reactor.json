@@ -1,0 +1,23 @@
+{
+    "name": "The Backmix Reactor",
+    "sortnum": "2",
+    "icon": "car:backmix_reactor",
+    "category": "patchouli:fuel_production",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Now we need to mix both fluids in the $(item)backmix reactor$(). You can connect the $(item)oil mill$() and the $(item)blast furnace$() with fluid pipes to the backmix reactor. Do not forget to put $(item)fluid extractors$() at the mill and the furnace to get the fluids flowing! The $(item)backmix reactor$() also needs to be connected to a $(l:fuel_production/2_canola_oil#dynamo)dynamo$() to work."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "car:backmix_reactor",
+            "recipe2": "car:fluid_extrator"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "car:fluid_pipe",
+            "recipe2": "car:fluid_extractor"
+        }
+
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Making Canola Oil",
+    "sortnum": "1",
+    "icon": "car:canola_oil_bucket",
+    "category": "patchouli:fuel_production",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Now we need an $(item)oil mill$() to produce $(item)canola oil$() out of the crops. $(br2)The mill requires energy from a $(item)dynamo$() with a $(item)crank$(). $(thing)Connect the dynamo and the mill with a $(item)cable.$()$(br2) To operate the $(item)dynamo$(), place the $(item)crank$() on top of the $(item)dynamo block$() and right-click it to produce electricity."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br2)Now you can produce $(item)canola oil$(). The mill will collect the oil.  You will also get $(item)canola cake$() as a byproduct, which can be used to breed all $(thing)animals$() that can be bred with $(item)wheat$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "anchor": "dynamo",
+            "recipe": "car:crank",
+            "recipe2": "car:dynamo"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "car:cable_insulator",
+            "recipe2": "car:cable"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "car:oilmill"
+        },
+        {
+            "type": "patchouli:empty",
+            "draw_filler": "false"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As you progress, you can use a $(item)generator$(), which is far more efficient but requires a $(item)tank$() with $(thing)fuel$() and an $(item)engine$() to operate."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "car:tank",
+            "recipe2": "car:engine_3_cylinder"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "car:generator"
+        }
+    ]
+}

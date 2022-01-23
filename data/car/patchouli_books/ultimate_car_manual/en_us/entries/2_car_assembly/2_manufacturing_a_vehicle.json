@@ -1,0 +1,12 @@
+{
+    "name": "Manufacturing a Vehicle",
+    "sortnum": "1",
+    "icon": "car:workshop",
+    "category": "patchouli:vehicles",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "TODO: Finish this chapter (20220122)"
+        }
+    ]
+}

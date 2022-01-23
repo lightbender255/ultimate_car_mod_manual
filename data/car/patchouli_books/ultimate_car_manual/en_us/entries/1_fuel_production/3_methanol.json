@@ -1,0 +1,16 @@
+{
+    "name": "Methanol",
+    "sortnum": "2",
+    "icon": "car:methanol_bucket",
+    "category": "patchouli:fuel_production",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Craft a blast furnace and put wood logs into it. The furnace also needs energy. See $(l:fuel_production/2_canola_oil#dynamo)Dynamo$()"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "car:blastfurnace"
+        }
+    ]
+}
